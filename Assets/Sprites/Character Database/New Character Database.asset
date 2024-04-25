@@ -15,10 +15,10 @@ MonoBehaviour:
   characters:
   - characterName: Ball 1
     characterSprite: {fileID: -1306257573432019270, guid: 61e3de665458c2543adaed27bea226f1, type: 3}
-    unlocked: 1
+    unlocked: 0
   - characterName: Ball 2
     characterSprite: {fileID: -1465714040, guid: f7dba0c3d89a6aa44b3ddfe673a25c44, type: 3}
-    unlocked: 1
+    unlocked: 0
   - characterName: Ball 3
     characterSprite: {fileID: -1306257573432019270, guid: 32b5ba29deeb43a40bb32d596b827d63, type: 3}
     unlocked: 0

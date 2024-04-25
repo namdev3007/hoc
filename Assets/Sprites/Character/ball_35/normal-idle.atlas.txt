@@ -1,0 +1,349 @@
+
+normal-idle.png
+size: 616,189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball_01/Crying_eyeL
+  rotate: true
+  xy: 544, 53
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+ball_01/Crying_eyeR
+  rotate: true
+  xy: 545, 142
+  size: 45, 21
+  orig: 45, 21
+  offset: 0, 0
+  index: -1
+ball_01/Crying_eyebrowL
+  rotate: false
+  xy: 418, 99
+  size: 27, 18
+  orig: 27, 18
+  offset: 0, 0
+  index: -1
+ball_01/Crying_eyebrowR
+  rotate: false
+  xy: 362, 2
+  size: 33, 18
+  orig: 33, 18
+  offset: 0, 0
+  index: -1
+ball_01/Crying_mouth
+  rotate: true
+  xy: 237, 84
+  size: 103, 51
+  orig: 103, 51
+  offset: 0, 0
+  index: -1
+ball_01/Crying_tear1L
+  rotate: false
+  xy: 122, 6
+  size: 17, 8
+  orig: 17, 8
+  offset: 0, 0
+  index: -1
+ball_01/Crying_tear1R
+  rotate: false
+  xy: 141, 7
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+ball_01/Crying_tear2L
+  rotate: true
+  xy: 521, 102
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+ball_01/Crying_tear2R
+  rotate: true
+  xy: 525, 148
+  size: 39, 14
+  orig: 39, 14
+  offset: 0, 0
+  index: -1
+ball_01/Crying_tear3L
+  rotate: false
+  xy: 569, 136
+  size: 39, 14
+  orig: 39, 14
+  offset: 0, 0
+  index: -1
+ball_01/Crying_tear3R
+  rotate: true
+  xy: 531, 2
+  size: 27, 22
+  orig: 27, 22
+  offset: 0, 0
+  index: -1
+ball_01/Excited_eyebrowL
+  rotate: true
+  xy: 555, 6
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+ball_01/Excited_eyebrowR
+  rotate: true
+  xy: 578, 6
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+ball_01/Excited_mouth
+  rotate: true
+  xy: 290, 91
+  size: 96, 48
+  orig: 96, 48
+  offset: 0, 0
+  index: -1
+ball_01/Excited_teeth
+  rotate: false
+  xy: 246, 2
+  size: 58, 18
+  orig: 58, 18
+  offset: 0, 0
+  index: -1
+ball_01/Excited_tongue
+  rotate: false
+  xy: 481, 4
+  size: 48, 22
+  orig: 48, 22
+  offset: 0, 0
+  index: -1
+ball_01/Happy_mouth
+  rotate: true
+  xy: 340, 95
+  size: 92, 45
+  orig: 92, 45
+  offset: 0, 0
+  index: -1
+ball_01/Happy_teeth
+  rotate: true
+  xy: 441, 31
+  size: 66, 17
+  orig: 66, 17
+  offset: 0, 0
+  index: -1
+ball_01/Happy_tongue
+  rotate: false
+  xy: 306, 2
+  size: 54, 18
+  orig: 54, 18
+  offset: 0, 0
+  index: -1
+ball_01/Hurt_mouth
+  rotate: true
+  xy: 480, 131
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+ball_01/Hurt_shine2L
+  rotate: false
+  xy: 45, 3
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+ball_01/Hurt_shine2R
+  rotate: false
+  xy: 45, 3
+  size: 10, 11
+  orig: 10, 11
+  offset: 0, 0
+  index: -1
+ball_01/Hurt_tearL
+  rotate: true
+  xy: 30, 2
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+ball_01/Hurt_tearR
+  rotate: false
+  xy: 540, 31
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+ball_01/Scare_eyebrowL
+  rotate: false
+  xy: 397, 2
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+ball_01/Scare_eyebrowR
+  rotate: false
+  xy: 439, 2
+  size: 40, 24
+  orig: 40, 24
+  offset: 0, 0
+  index: -1
+ball_01/Scare_line
+  rotate: false
+  xy: 57, 4
+  size: 63, 10
+  orig: 63, 10
+  offset: 0, 0
+  index: -1
+ball_01/Scare_teethLower
+  rotate: false
+  xy: 175, 2
+  size: 69, 18
+  orig: 69, 18
+  offset: 0, 0
+  index: -1
+ball_01/Scare_teethUpper
+  rotate: true
+  xy: 370, 23
+  size: 70, 15
+  orig: 70, 15
+  offset: 0, 0
+  index: -1
+ball_01/Surprised_eyebrowL
+  rotate: false
+  xy: 508, 31
+  size: 30, 15
+  orig: 30, 15
+  offset: 0, 0
+  index: -1
+ball_01/Surprised_eyebrowR
+  rotate: true
+  xy: 601, 8
+  size: 30, 13
+  orig: 30, 13
+  offset: 0, 0
+  index: -1
+ball_01/Surprised_mouth
+  rotate: false
+  xy: 497, 48
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+ball_01/Surprised_teeth
+  rotate: false
+  xy: 2, 2
+  size: 26, 12
+  orig: 26, 12
+  offset: 0, 0
+  index: -1
+ball_01/U1
+  rotate: false
+  xy: 493, 100
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+ball_01/U2
+  rotate: true
+  xy: 460, 44
+  size: 54, 35
+  orig: 54, 36
+  offset: 0, 1
+  index: -1
+ball_01/U3
+  rotate: true
+  xy: 175, 22
+  size: 165, 60
+  orig: 165, 61
+  offset: 0, 0
+  index: -1
+ball_01/base
+  rotate: false
+  xy: 2, 16
+  size: 171, 171
+  orig: 171, 171
+  offset: 0, 0
+  index: -1
+ball_01/blushesL
+  rotate: true
+  xy: 545, 103
+  size: 37, 22
+  orig: 37, 22
+  offset: 0, 0
+  index: -1
+ball_01/blushesR
+  rotate: false
+  xy: 569, 112
+  size: 37, 22
+  orig: 37, 22
+  offset: 0, 0
+  index: -1
+ball_01/eye tear
+  rotate: true
+  xy: 307, 22
+  size: 67, 61
+  orig: 67, 62
+  offset: 0, 1
+  index: -1
+ball_01/eyeL
+  rotate: true
+  xy: 237, 22
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+ball_01/eyeR
+  rotate: false
+  xy: 418, 119
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+ball_01/eyebrowL
+  rotate: false
+  xy: 447, 100
+  size: 44, 17
+  orig: 44, 17
+  offset: 0, 0
+  index: -1
+ball_01/eyebrowR
+  rotate: false
+  xy: 460, 28
+  size: 46, 14
+  orig: 46, 14
+  offset: 0, 0
+  index: -1
+ball_01/hair
+  rotate: false
+  xy: 387, 28
+  size: 52, 69
+  orig: 52, 70
+  offset: 0, 1
+  index: -1
+ball_01/mouth
+  rotate: true
+  xy: 387, 99
+  size: 88, 29
+  orig: 88, 29
+  offset: 0, 0
+  index: -1
+ball_01/nose
+  rotate: true
+  xy: 568, 152
+  size: 35, 45
+  orig: 35, 45
+  offset: 0, 0
+  index: -1
+ball_01/pupilL
+  rotate: true
+  xy: 568, 40
+  size: 34, 36
+  orig: 34, 37
+  offset: 0, 1
+  index: -1
+ball_01/pupilR
+  rotate: true
+  xy: 569, 76
+  size: 34, 36
+  orig: 34, 37
+  offset: 0, 1
+  index: -1
