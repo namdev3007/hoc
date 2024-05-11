@@ -1792,6 +1792,7 @@ GameObject:
   - component: {fileID: 574400081}
   - component: {fileID: 574400080}
   - component: {fileID: 574400086}
+  - component: {fileID: 574400087}
   - component: {fileID: 574400085}
   m_Layer: 5
   m_Name: Pack 2 bnt
@@ -1867,6 +1868,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2026168434}
         m_TargetAssemblyTypeName: ShopManager, Assembly-CSharp
         m_MethodName: OnButton2Clicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 574400087}
+        m_TargetAssemblyTypeName: BntPack2Controller, Assembly-CSharp
+        m_MethodName: OnButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1990,6 +2003,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &574400087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574400078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d282771b33300246b61032c2d64fde4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &585772832 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8212825186030039719, guid: ac8a362cc4bf0874cb7c5f5b5e91516a, type: 3}
@@ -4497,7 +4522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1340256870
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4634,6 +4659,7 @@ GameObject:
   - component: {fileID: 1401582137}
   - component: {fileID: 1401582136}
   - component: {fileID: 1401582135}
+  - component: {fileID: 1401582139}
   - component: {fileID: 1401582138}
   m_Layer: 5
   m_Name: Pack 1 bnt
@@ -4705,7 +4731,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1401582136}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2026168434}
+        m_TargetAssemblyTypeName: ShopManager, Assembly-CSharp
+        m_MethodName: OnButton1Clicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1401582139}
+        m_TargetAssemblyTypeName: BntPackController, Assembly-CSharp
+        m_MethodName: OnButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1401582136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4766,6 +4816,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1401582139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401582133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6de9900270730146b1e1a9b3231bd88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1406924773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5597,6 +5659,7 @@ GameObject:
   - component: {fileID: 1678751151}
   - component: {fileID: 1678751150}
   - component: {fileID: 1678751149}
+  - component: {fileID: 1678751153}
   - component: {fileID: 1678751152}
   m_Layer: 5
   m_Name: Pack 3 bnt
@@ -5681,6 +5744,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1678751153}
+        m_TargetAssemblyTypeName: BntPack3Controller, Assembly-CSharp
+        m_MethodName: OnButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1678751150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5741,6 +5816,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1678751153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678751147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8c474e8fc779547a8ff83524b42d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702342631
 GameObject:
   m_ObjectHideFlags: 0
@@ -6439,6 +6526,7 @@ GameObject:
   - component: {fileID: 1902331845}
   - component: {fileID: 1902331844}
   - component: {fileID: 1902331843}
+  - component: {fileID: 1902331847}
   - component: {fileID: 1902331846}
   m_Layer: 5
   m_Name: Pack 4 bnt
@@ -6523,6 +6611,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1902331847}
+        m_TargetAssemblyTypeName: BntPack4Controller, Assembly-CSharp
+        m_MethodName: OnButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1902331844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6583,6 +6683,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1902331847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902331841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc3c9e9c6f9524d4d9ba5f7ae75f665d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1904386725
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,7 +7032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1960875040
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7270,7 +7382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2026168433
 RectTransform:
   m_ObjectHideFlags: 0
