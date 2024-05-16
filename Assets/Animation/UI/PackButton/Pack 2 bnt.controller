@@ -9,11 +9,24 @@ AnimatorController:
   m_Name: Pack 2 bnt
   serializedVersion: 5
   m_AnimatorParameters:
+<<<<<<< HEAD
+=======
+  - m_Name: On
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+>>>>>>> f2069d3f76518f4d4adbbc6ac554bec9a59f2b8d
   - m_Name: Disabled
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
+<<<<<<< HEAD
     m_DefaultBool: 1
+=======
+    m_DefaultBool: 0
+>>>>>>> f2069d3f76518f4d4adbbc6ac554bec9a59f2b8d
     m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
@@ -88,8 +101,13 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
+<<<<<<< HEAD
   - m_ConditionMode: 2
     m_ConditionEvent: Disabled
+=======
+  - m_ConditionMode: 1
+    m_ConditionEvent: On
+>>>>>>> f2069d3f76518f4d4adbbc6ac554bec9a59f2b8d
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4347665296127606982}

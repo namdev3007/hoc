@@ -17,9 +17,15 @@ public class BntPackController : MonoBehaviour
         btPack4Controller = Object.FindFirstObjectByType<BntPack4Controller>();
     }
 
+<<<<<<< HEAD
     public void OnButtonClicked1()
     {
         animator.SetBool("Disabled", false);
+=======
+    public void OnButtonClicked()
+    {
+        animator.SetTrigger("On");
+>>>>>>> f2069d3f76518f4d4adbbc6ac554bec9a59f2b8d
         btPack2Controller.DisableButton();
         btPack3Controller.DisableButton3();
         btPack4Controller.DisableButton();

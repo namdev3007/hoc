@@ -12,11 +12,14 @@ public class HomeUI : MonoBehaviour
     public TextMeshProUGUI coinsText;
     public TextMeshProUGUI livesText;
 
+<<<<<<< HEAD
     [Header("Shop UI")]
     public GameObject shopUI;
     public GameObject wheelUI;
     public GameObject gitfUI;
 
+=======
+>>>>>>> f2069d3f76518f4d4adbbc6ac554bec9a59f2b8d
     private void Awake()
     {
         coinsManager = Object.FindFirstObjectByType<CoinsManager>();
@@ -38,6 +41,7 @@ public class HomeUI : MonoBehaviour
     {
         livesText.text = healthManager.lives.ToString();
     }
+<<<<<<< HEAD
 
     public void TurnOnShop()
     {
@@ -56,4 +60,6 @@ public class HomeUI : MonoBehaviour
     {
         wheelUI.SetActive(true);
     }
+=======
+>>>>>>> f2069d3f76518f4d4adbbc6ac554bec9a59f2b8d
 }
